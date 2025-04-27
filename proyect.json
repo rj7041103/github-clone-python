@@ -1,0 +1,70 @@
+{
+  "name": "proyect",
+  "current_branch": "main",
+  "branches": {
+    "main": {
+      "name": "main",
+      "commit_hash": "f1c465ff15b764b0f8df5a1a506093a854194663",
+      "parent_name": null
+    },
+    "master": {
+      "name": "master",
+      "commit_hash": "f1c465ff15b764b0f8df5a1a506093a854194663",
+      "parent_name": "main"
+    }
+  },
+  "collaborators": null,
+  "commits": [
+    {
+      "h": "2ebcaf89900ffbee3edc471eb9b0c03a64f17106",
+      "m": "-m \"Carga prueba\"",
+      "a": "user@example.com",
+      "d": "2025-04-27 13:20:53",
+      "p": null,
+      "f": [
+        "text2.txt",
+        "text3.txt"
+      ],
+      "b": "main"
+    },
+    {
+      "h": "4bc632bcf125358125d54e67eccf0e2a1b801587",
+      "m": "-m \"Carga 2 de prueba\"",
+      "a": "user@example.com",
+      "d": "2025-04-27 13:21:59",
+      "p": "2ebcaf89900ffbee3edc471eb9b0c03a64f17106",
+      "f": [
+        "text1.txt",
+        "arch.py"
+      ],
+      "b": "master"
+    },
+    {
+      "h": "f1c465ff15b764b0f8df5a1a506093a854194663",
+      "m": "-m \"Prueba 3\"",
+      "a": "user@example.com",
+      "d": "2025-04-27 13:32:02",
+      "p": "4bc632bcf125358125d54e67eccf0e2a1b801587",
+      "f": [
+        "prueba.py"
+      ],
+      "b": "master"
+    }
+  ],
+  "staging": {
+    "staged_files": [],
+    "last_commit_hash": "f1c465ff15b764b0f8df5a1a506093a854194663"
+  },
+  "roles": {
+    "email": "user1@gmail.com",
+    "role": "admin",
+    "permissions": [
+      "merge",
+      "pull",
+      "push"
+    ],
+    "left": null,
+    "right": null,
+    "height": 1
+  }
+}
