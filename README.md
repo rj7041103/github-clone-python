@@ -196,3 +196,71 @@ Mensaje: -m
 Archivos: test.js
 Padre: None
 --------------------------------------------------
+
+### Nueva parte del Programa de simulacion de Github
+### **Inicializar un Repositorio**
+```bash
+init proyect 
+```
+### **Crea una nueva rama**
+```bash
+branch -b newRama
+```
+### **Elimina una nueva rama**
+```bash
+branch -d newRama
+```
+### **Muestra la lista de las ramas qeu hay**
+```bash
+branch --list
+```
+### **Cambia a una rama previamente creada**
+```bash
+#Se ejecuta antes branch -b newRama2
+checkout newRama2
+```
+### **Une los archivos que se cargan de una rama de origen a otra de destino**
+```bash
+merge newRama newRama2
+```
+### **Muestra la lista de colaboradores ordenada alfabéticamente**
+```bash
+contributors
+```
+### **Agrega un nuevo colaborador en la estructura en 
+el repositorio**
+```bash
+add-contributor Pedro
+```
+### **Elimina al colaborar con todos sus permisos**
+```bash
+remove-contributor Pedro
+```
+### **Encuentra a un colaborador dentro del repositorio**
+```bash
+find-contributor Pedro
+```
+### **Agrega los roles a correos de usuarios dentro del repositorio**
+```bash
+role add user1@gmail.com Admin push pull
+```
+### **Actualiza los roles y los permisos de la acciones que puede hacer un usuario dentro del repositorio**
+```bash
+role update user1@gmail.com Admin merge
+```
+### **Verifica los permisos de accion que tiene un usuario dentro del repositorio**
+```bash
+role check user1@gmail.com pull
+```
+### **Elimina de la lista al usuario con permisos de acciones que porte el email escrito **
+```bash
+role remove user1@gmail.com 
+```
+### **Muestra el rol y los grados de permisos de acciones que puede hacer en el repositorio**
+```bash
+role show user1@gmail.com 
+```
+### **Muestra toda la lista de usuarios con permisos de accion dentro del repositorio**
+```bash
+role list
+```
